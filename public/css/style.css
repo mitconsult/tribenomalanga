@@ -1,0 +1,498 @@
+body{
+    font-size: 25px;
+    color: #183215;
+}
+
+.header img{
+    width: 100%;
+    z-index: -100;
+}
+
+.header-title{
+    padding: 5%;
+    border-radius: 70px;
+    width: 30%;
+    color: white;
+    background-color: #183215;
+    font-size: 25px;
+    position: relative;
+    z-index: 100;
+    margin-top: -30%;
+    margin-left: 10%;
+}
+
+.header-title h2{
+    color: #C19545;
+    font-size: 45px;
+}
+
+.header button{
+    margin-top: 10%;
+    background-color: #183215;
+    border-radius: 100px;
+    border-color: #ffff;
+    border-width: 5px;
+    padding: 20px 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.about{
+    color: #ffff;
+    background-color: #183215;
+    height: 100%;
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+#about-left{
+    width: 45%;
+    float: left;
+    
+}
+
+#about-left img{
+    width: 80%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-right{
+    width: 50%;
+    float: left;
+}
+
+.about h2{
+    color: #C19545;
+    font-size: 50px;
+}
+
+.meet-founder{
+    padding-top: 10%;
+    font-size: 25px;
+    height: 130%;
+    background: linear-gradient(90deg, rgba(193,149,69,1) 0%, rgba(193,149,69,1) 40%, rgba(255,255,255,1) 40%); 
+}
+
+#home-video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgb(73, 73, 73);
+    border: 3px solid white;
+    padding: 20px;
+    width: 70%;
+}
+
+.meet-founder img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#meet-founder-left{
+    width: 45%;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#meet-founder-left h2{
+    font-size: 45px;
+    color: #ffff;
+    text-align: center;
+}
+
+#meet-founder-right{
+    width: 50%;
+    float: left;
+}
+
+.well-being-app {
+    font-size: 25px;
+    color:#183215;
+    background-color: #ffff;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.well-being-app h2{
+    font-size: 50px;
+    color:#183215;
+}
+
+.about-header{
+    color: #ffff;
+    margin-bottom: 25%;
+}
+.about-header img{
+    /*background-image: url(../images/without-tagline/Emerald-S.jpg);*/
+    width: 100%;
+}
+
+.about-header h1{
+    margin-top: -45%;
+    font-size: 150px;
+    letter-spacing: 20px;
+    margin-left: 10%;
+}
+
+.about-header p{
+   font-size: 30px;
+   text-align: left;
+   margin-left: 10%;
+   line-height: 40px;
+}
+
+.our-story{
+    color: #C19545;
+}
+
+.our-story h2{
+    color: #C19545;
+}
+
+.our-story img{
+    width: 90%;
+    border-radius: 100px;
+}
+
+#our-story-left {
+    width: 20%;
+    float: left;
+}
+#our-story-right {
+    width: 60%;
+    float: left;
+    color: #183215;
+}
+
+td {
+   
+    vertical-align: middle;
+  }
+
+.workforce h2{
+    font-size: 30px;
+    padding: 5% 0px;
+}
+
+.workforce p{
+    font-size: 20px;
+}
+.workforce img{
+    width: 100%;
+}
+
+.workforce td{
+    width: 25%;
+}
+
+/******************CONTACT US***********************/
+.contact-form{
+    margin-top: 15%;
+    z-index: 100;
+}
+
+#contact-form-left{
+    width: 30%;
+    float: left;
+    padding: 0px 10%;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+#contact-form-right{
+    z-index: 100;
+    float: left;
+    width: 30%;
+    border: grey 1px solid;
+    border-radius: 60px;
+    padding: 5% 5%;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin-top: -15%;
+    background-color: white;
+}
+
+
+.contact-form input, select, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px #183215;
+    font-size: 20px;
+    font-weight: 700;
+    color: #183215;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-form input[type="submit"]{
+    background-color: #183215;
+    color: #ffff;
+    width: 50%;
+    border-radius: 50px;
+    padding: 5% 10%;
+}
+
+
+/******************SHOP***********************/
+.shop-main{
+    margin-top: 30%;
+    text-align: center;
+    background-color: #183215;
+    width: 100%;
+}
+
+.shop-main h2{
+    font-size: 25px;
+}
+
+.shop-main p{
+    color: #ffff;
+}
+
+.shop-form label{
+    color: #ffff;
+    font-size: 20px;
+}
+
+.shop-form{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-form input{
+    background-color: #ffff;
+    padding: 5%;
+    width: 100%;
+    border: none;
+}
+
+.shop-form input[type="submit"]{
+    background-color:#183215;
+    border-radius: 50px;
+    padding: 3%;
+    width: 40%;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px white;
+    color: #ffff;
+}
+
+.shop-journey{
+    font-size: 17px;
+    text-align: left;
+}
+
+#shop-journey-left button{
+    padding: 3% 15%;
+    font-size: 20px;
+    background-color: #ffff;
+    border: 2px solid #C19545;
+    color: #C19545;
+    border-radius: 50px;
+}
+
+#shop-journey-right button{
+    padding: 3% 15%;
+    font-size: 20px;
+    background-color: #C19545;
+    border: 2px solid #ffff;
+    color: #ffff;
+    border-radius: 50px;
+}
+
+#shop-journey-left{
+    float: left;
+    width: 40%;
+    color: #183215;
+    padding: 0px 3%;
+}
+
+#shop-journey-left p{
+    color: #183215;
+}
+
+#shop-journey-right{
+    float: left;
+    width: 40%;
+    padding: 0px 3%;
+    color: #ffff;
+    background-color: #C19545;
+    text-align: left;
+}
+
+
+.thive-card{
+    background-color: #183215;
+    color: #ffff;
+    font-size: 20px;
+    width: 28%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 1px solid #183215;
+    float: left;
+    padding-bottom: 0px;
+    
+}
+
+.thive-card p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+.thive-card h2{
+    color: #183215;
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.thrive-top{
+    width: 70%;
+    margin-top: 15%;
+}
+
+
+.thrive-main h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+
+.thrive-top h3{
+    padding: 5% 0px;
+}
+
+
+.thrive-top p{
+    font-size: 30px;
+}
+
+.micro-learning{
+    width: 100%;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.micro-learning td{
+    padding: 3% 0px
+}
+#micro-learning-table{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+
+/********************MENU******************************/
+.menu{
+    background-color: #183215;
+    color: #fff;
+    height: 10%;
+}
+.menu-item{
+    margin-top: 2%;
+    width: 8%;
+    float: left;
+    font-size: 17px;
+}
+
+.menu-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    color:#C19545
+}
+
+/*******************LAB**********************/
+
+.lab-downloads{
+    width: 28%;
+    margin-right: 5%;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 10px 0px gray;  
+    float: left;
+}
+
+.lab-downloads img{
+    width: 100%;
+}
+
+.lab-downloads h3{
+    padding: 0% 6%;
+    font-size: 17px;
+}
+
+.lab-downloads p{
+    padding: 0% 6%;
+    font-size: 15px;
+}
+
+.lab-main{
+    margin-top: 15%;
+}
+
+#profile-photo{
+    border-radius: 100px;
+    width: 50%;
+}
+
+.about-main{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thrive-main{
+    margin-left: 10%;
+}
+
+.thrive-bottom{
+    margin-top: 10%;
+}
+
+#thrive-bottom-left{
+    width: 40%;
+    float: left;
+}
+
+#thrive-bottom-right{
+    width: 60%;
+    float: left;
+}
+
+#thrive-bottom-right img{
+    width: 100%;
+}
+
+#thrive-button{
+    border: 2px solid white;
+    color: white;
+    background: none;
+    padding: 3% 8%;
+    margin-top: -30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 40%;
+}
